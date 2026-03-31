@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Hero from './components/hero/Hero';
@@ -19,8 +20,8 @@ function FloatingButtons() {
   return (
     <>
       {/* Book a Meeting */}
-      <a
-        href="/contact"
+      <Link
+        to="/contact"
         style={{
           position: 'fixed', bottom: '40px', left: '20px', zIndex: 9999,
           display: 'flex', alignItems: 'center', gap: '8px',
@@ -39,7 +40,7 @@ function FloatingButtons() {
           <line x1="3" y1="10" x2="21" y2="10" />
         </svg>
         Book a Meeting
-      </a>
+      </Link>
 
       {/* WhatsApp */}
       <a
@@ -115,12 +116,12 @@ function MainLayout() {
 
         <span style={{ letterSpacing: '0.025em' }}>
           Welcome to <strong>Devspots</strong> IT Company
-          <a
-            href="/contact"
+          <Link 
+          to="/contact"
             style={{ marginLeft: '8px', textDecoration: 'underline', fontWeight: '600', color: 'white', whiteSpace: 'nowrap' }}
           >
             Let's Talk →
-          </a>
+          </Link>
         </span>
 
         {/* Language Selector */}
