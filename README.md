@@ -1,16 +1,103 @@
-# React + Vite
+# 🚀 DevSpot 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**A modern, animated business website built to convert visitors into clients.**
 
-## React Compiler
+[🌐 Here's Live Demo Website ](https://dev-spots.vercel.app/) 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 About the Project
+
+This is a **professional business growth website** designed to establish a strong digital presence, attract clients, and showcase our capabilities. It features smooth animated gradient backgrounds, a services showcase, portfolio section, and a consultation form all built for performance and visual impact.
+
+> Built with ❤️ using **React.js + Vite + Tailwind CSS**
+
+---
+
+## ✨ Features
+
+- 🎨 **Animated Gradient Backgrounds** Eye-catching, smooth gradient animations throughout the UI
+- 💼 **Services Section** Full showcase of all offered services with clean cards
+- 🗂️ **Portfolio Section** Highlight past work and client success stories
+- 🤝 **Consultation Section** Easy-to-use form for potential clients to get in touch
+- 📱 **Fully Responsive** Works seamlessly on mobile, tablet, and desktop
+- ⚡ **Blazing Fast** Powered by Vite for lightning-quick load times
+- 🌙 **Modern UI/UX** Clean design with smooth transitions and hover effects
+
+---
+
+## 🛠️ Services
+
+Our website covers the following service offerings:
+
+| # | Service |
+|---|---------|
+| 1 | 🌐 Web Development |
+| 2 | 📱 App Development |
+| 3 | ⚙️ Custom Software Development |
+| 4 | 🎨 UX/UI Design |
+| 5 | ✅ Quality Assurance |
+| 6 | 🤖 Gen AI |
+| 7 | 📊 Data Analytics |
+| 8 | 🔧 DevOps |
+| 9 | ☁️ Cloud Maintenance & Integration |
+| 10 | 💡 SaaS Solutions |
+| 11 | 🛒 E-commerce |
+| 12 | 👥 Staff Augmentation |
+
+---
+
+## 🧰 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **React.js** | Frontend UI library |
+| **Vite** | Build tool & dev server |
+| **Tailwind CSS** | Utility-first styling |
+| **CSS Animations** | Gradient & transition effects |
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+Make sure you have these installed:
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+```bash
+# 1. Install dependencies
+npm install
+
+# 2. Start the development server
+npm run dev
+```
+
+The app will be running at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
